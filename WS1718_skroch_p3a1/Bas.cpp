@@ -37,3 +37,5 @@ Bas* Bas::getlastpointer(){
 Bas* Bas::getprevpointer(){
     return prev;
 }
+
+Bas* Bas::last{ nullptr };
